@@ -19,14 +19,19 @@
 		
 		<label for="gender">Gender</label>
 
-		<label for="gender">Gender</label>
 			<input id="gender_m" name="gender" type="radio" required>
 			<label for="gender">Male</label>
 			<input id="gender_f" name="gender" type="radio" required>
 		<label for="gender">Female</label>
 
 		<label for="cars">Cars:- </label>
-			<input id="cars" name="cars" type="select" required placeholder="--Please choose an option--">
+			  <select id="cars" name="cars" required>
+            <option value="" disabled selected>--Please choose an option--</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="ford">Ford</option>
+            <option value="bmw">BMW</option>
+        </select>
 		
 		<label for="age">Age :- </label>
 			<input id="age" name="age" type="number" required placeholder="Age">
